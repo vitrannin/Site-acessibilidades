@@ -9,38 +9,66 @@ body {
 font-family: Arial, sans-serif;
 background-color: #fff8f5;
 color: #333;
-line-height: 1.6;
-font-size: 18px;
+line-height: 1.8;
+font-size: 20px; /* Fonte aumentada */
 margin: 0;
 padding: 0;
+text-align: center; /* Centralizar todo o conteúdo */
 }
+
 header, nav, main, footer {
 padding: 20px;
-margin: 10px;
+margin: 10px auto;
+max-width: 800px; /* Limita a largura para não ficar esticado em telas grandes */
 }
+
 header {
 background-color: #ffb6c1;
 color: #000;
+border-radius: 8px;
 }
+
 nav {
 background-color: #ffe4e1;
+border-radius: 8px;
 }
+
 nav a {
-margin-right: 15px;
+margin: 0 15px;
 text-decoration: none;
 color: #000;
 font-weight: bold;
+font-size: 22px; /* Links um pouco maiores */
 }
+
 nav a:focus, nav a:hover {
 text-decoration: underline;
 }
-main img {
-max-width: 100%;
-height: auto;
+
+main section {
+margin-top: 40px;
 }
+
+h1 {
+font-size: 36px;
+}
+
+h2 {
+font-size: 28px;
+color: #c71585;
+margin-bottom: 15px;
+}
+
+p {
+margin: 0 0 20px 0;
+}
+
 footer {
 background-color: #ffb6c1;
 text-align: center;
+padding: 15px;
+border-radius: 8px;
+font-size: 18px;
 }
 </style>
 </head>
@@ -59,19 +87,16 @@ text-align: center;
 <main>
 <section id="beleza">
 <h2>Cuidados com a Beleza</h2>
-<img src="beleza.jpg" alt="Mulher cuidando da pele" />
 <p>Descubra dicas de cuidados com a pele, maquiagem natural e truques para realçar ainda mais sua beleza única.</p>
 </section>
 
 <section id="saude">
 <h2>Saúde Feminina</h2>
-<img src="saude.jpg" alt="Mulher praticando ioga" />
 <p>Informações importantes sobre saúde física e mental. Cuide de você com práticas saudáveis e equilibradas.</p>
 </section>
 
 <section id="autoestima">
 <h2>Fortalecendo a Autoestima</h2>
-<img src="autoestima.jpg" alt="Mulher sorrindo confiante" />
 <p>Conselhos para cultivar a autoestima, aceitar sua beleza natural e viver com mais confiança e felicidade.</p>
 </section>
 </main>
